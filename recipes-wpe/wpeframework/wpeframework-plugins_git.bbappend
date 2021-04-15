@@ -1,4 +1,3 @@
-include include/compositor.inc
 
 WPE_COMPOSITOR = "${@bb.utils.contains('DISTRO_FEATURES', 'wayland', 'compositor_wayland', 'compositor_rpi', d)}"
 

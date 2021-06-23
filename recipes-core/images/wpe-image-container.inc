@@ -1,5 +1,3 @@
-include recipes-core/images/wpe-image.bb
-
 ROOTFS_POSTPROCESS_COMMAND += "add_subuid_subgid_files;"
 
 add_subuid_subgid_files() {

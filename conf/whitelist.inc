@@ -11,4 +11,7 @@ LICENSE_FLAGS_WHITELIST += "commercial_faad2"
 LICENSE_FLAGS_WHITELIST += "commercial_libomxil" 
 LICENSE_FLAGS_WHITELIST += "commercial_gstreamer1.0-omx"
 
-
+# Alexa Voice SDK needs below modules
+LICENSE_FLAGS_WHITELIST += "commercial_gstreamer1.0-libav"
+LICENSE_FLAGS_WHITELIST += "commercial_ffmpeg"
+LICENSE_FLAGS_WHITELIST += "commercial_x264"

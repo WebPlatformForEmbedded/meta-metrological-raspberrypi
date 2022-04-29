@@ -8,3 +8,5 @@ WPE_COMPOSITOR = "${@bb.utils.contains('DISTRO_FEATURES', 'wayland', 'compositor
 WPE_PLAYERINFO_DEP = "gstreamer1.0"
 WPE_SNAPSHOT_DEP = "${@bb.utils.contains('MACHINE_FEATURES', 'vc4graphics', '', 'userland', d)}"
 WPE_WIFICONTROL_DEP = "linux-firmware-bcm43430"
+WPE_AVS_PLATFORM = "rpi3"
+

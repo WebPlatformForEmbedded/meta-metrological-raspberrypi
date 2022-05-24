@@ -11,4 +11,3 @@ LICENSE_FLAGS_WHITELIST += "commercial_faad2"
 LICENSE_FLAGS_WHITELIST += "commercial_libomxil" 
 LICENSE_FLAGS_WHITELIST += "commercial_gstreamer1.0-omx"
 
-

@@ -3,7 +3,6 @@ PACKAGECONFIG_append = "\
     ${@bb.utils.contains('MACHINE_FEATURES', 'vc4graphics', '', 'snapshot', d)} \
 "
 
-WPE_COBALT_STARBOARD_CONFIGURATION_INCLUDE = "third_party/starboard/wpe/rpi/configuration_public.h"
 WPE_PLAYERINFO_DEP = "gstreamer1.0"
 WPE_SPARK_RESOLUTION = "720p"
 WPE_SNAPSHOT_DEP = "${@bb.utils.contains('MACHINE_FEATURES', 'vc4graphics', '', 'userland', d)}"
